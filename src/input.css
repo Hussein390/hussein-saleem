@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-blue {
+  background: #2042B6;
+}
+
+.blue {
+  color: #2042B6;
+}
+
+.fixed-layout {
+  @apply container mx-auto px-4
+}
+
+#myChart {
+  max-width: 1200px !important;
+  max-height: 500px !important;
+}
+
+.text {
+  color: black !important;
+}
+
+.scrollbar-hide {
+  scrollbar-width: none;
+}
